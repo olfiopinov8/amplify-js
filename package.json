@@ -76,5 +76,8 @@
 	"jest": {
 		"resetMocks": true,
 		"verbose": true
+	},
+	"dependencies": {
+		"@react-native-community/async-storage": "^1.6.2"
 	}
 }
