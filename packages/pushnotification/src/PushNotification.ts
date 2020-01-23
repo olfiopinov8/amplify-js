@@ -19,7 +19,8 @@ import {
 	AppState,
 } from 'react-native';
 import AsyncStorage from '@react-native-community/async-storage';
-import Amplify, { ConsoleLogger as Logger } from '@aws-amplify/core';
+import { ConsoleLogger as Logger } from '@aws-amplify/core';
+import Amplify from 'aws-amplify';
 
 const logger = new Logger('Notification');
 

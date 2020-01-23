@@ -48,7 +48,8 @@
     "webpack": "^3.5.5"
   },
   "dependencies": {
-    "@aws-amplify/core": "^1.2.4"
+    "@aws-amplify/core": "^1.2.4",
+    "aws-amplify": "^2.2.2"
   },
   "peerdependencies": {
     "react-native": "^0.55.0"
